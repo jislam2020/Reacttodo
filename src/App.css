@@ -6,10 +6,31 @@
 
 body {
     font-family: arial, Helvetica, sans-serif;
-    line-height: 1.4;
+    line-height: 1.2;
+   
 }
 
 a {
     color: #333;
     text-decoration: none;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    background: blue;
+    color: white;
+    padding: 7px 20 px;
+    cursor: pointer;
+
+
+}
+
+.btn:hover {
+    background: #666;
+    
 }
